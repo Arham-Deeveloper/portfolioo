@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Skils</title>
+</head>
+<style>
+    body {
+    width: 1020px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+
+
+  .ay {
+    position: absolute;
+    left: 200px;
+    top: -60px;
+  }
+
+  .skil {
+        color: white;
+        font-size: 60px;
+        width: 1020px;
+        background-color: rgb(40, 134, 127);
+        padding-right: 115px;
+    }
+
+    .mainY {
+        background-color: white;
+        width: 1000px;
+        height: 500px;
+        position: absolute;
+        left: 20%;
+        top: 128px;
+    }
+
+    .grid-containerY {
+        display: grid;
+        grid-template-columns: 333px 333px 333px;
+        grid-template-rows: 166px 166px 166px;
+        position: relative;
+        margin: auto;
+    }
+
+    .htm {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .a {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .cs {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .b {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .jav {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .c {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .dat {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+
+    .d {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .expr {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .e {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .sql {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .f {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .npm {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .g {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .nod {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .h {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .mon {
+        width: 200px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+
+    .i {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+
+
+
+
+</style>
+<body>
+    <div class="sidebar">
+        <img class="myImage" src="./image/What-is-Website.png">
+    <hr class="line">
+        <a href="./logIn.html"><i class="fa fa-fw fa-user"></i>  Log In</a>
+        <a href="./index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./experiance.html"><i class="fa fa-star-half-full"></i> Experiance</a>
+        <a href="./project.html"><i class="fa fa-newspaper-o"></i>  Projects</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="./about.html"><i class="fa fa-info-circle"></i>  About</a>
+        <a href="./skills.html" class="split"><i class="fa fa-user-circle"></i> Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+
+    <div class="ay">
+        <div class="skil"><p>Skills</p>
+
+        </div>
+    </div>
+
+    <div class="mainY">
+        <div class="grid-containerY">
+            <div class="a">
+                <img class="htm" src="./image/htm.png">
+            </div>
+            <div class="b">
+                <img class="cs" src="./image/cspng.png">
+            </div>
+            <div class="c">
+                <img class="jav" src="./image/j.png">
+            </div>
+            <div class="d">
+                <img class="dat" src="./image/databas.png">
+            </div>
+            <div class="e">
+                <img class="expr" src="./image/expres.png">
+            </div>
+            <div class="f">
+                <img class="sql" src="./image/sql.png">
+            </div>
+            <div class="g">
+                <img class="npm" src="./image/npm.png">
+            </div>
+            <div class="h">
+                <img class="nod" src="./image/node.png">
+            </div>
+            <div class="i">
+                <img class="mon" src="./image/mong.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

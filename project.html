@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+</head>
+<style>
+   body {
+    width: 1020px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+
+    .ag {
+        position: absolute;
+        left: 200px;
+        top: -60px;
+    }
+
+    .pro {
+        color: white;
+        font-size: 60px;
+        width: 1020px;
+        background-color: rgb(40, 134, 127);
+        padding-right: 115px;
+    }
+
+    .mainT {
+        background-color: white;
+        width: 1000px;
+        height: 500px;
+        position: absolute;
+        left: 20%;
+        top: 128px;
+    }
+
+    .grid-containerA {
+        display: grid;
+        grid-template-columns: 333px 333px 334px;
+        grid-template-rows: 250px 250px;
+        position: relative;
+        margin: auto;
+    }
+
+    .A {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .dice {
+        width: 240px;
+        height: 200px;
+        margin-left: 47px;
+        margin-top: 23px;
+        position: absolute;
+    }
+
+    .dice:hover {
+        display: none;
+    }
+
+    #A {
+        width: 244px;
+        height: 200px;
+        position: relative;
+        margin-left: 14%;
+        margin-top: 7%;
+        font-size: 0px;
+    }
+
+    #A:hover {
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .simon {
+        width: 240px;
+        height: 200px;
+        margin-left: 47px;
+        margin-top: 23px;
+        position: absolute;
+    }
+
+    .simon:hover {
+        display: none;
+    }
+
+    #B {
+        width: 244px;
+        height: 200px;
+        position: relative;
+        margin-left: 14%;
+        margin-top: 7%;
+        font-size: 0px;
+    }
+
+    #B:hover {
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .B {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .portfolio {
+        width: 240px;
+        height: 200px;
+        margin-left: 47px;
+        margin-top: 23px;
+        position: absolute;
+    }
+
+    .portfolio:hover {
+        display: none;
+    }
+
+    #C {
+        width: 244px;
+        height: 200px;
+        position: relative;
+        margin-left: 14%;
+        margin-top: 7%;
+        font-size: 0px;
+    }
+
+    #C:hover {
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .C {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .D {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .E {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+
+    .F {
+        background-color: white;
+        border: 2px solid whitesmoke;
+    }
+</style>
+<body>
+    <div class="sidebar">
+        <img class="myImage" src="./image/What-is-Website.png">
+    <hr class="line">
+        <a href="./index.html"><i class="fa fa-fw fa-user"></i>  Log In</a>
+        <a href="./home.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./experiance.html"><i class="fa fa-star-half-full"></i> Experiance</a>
+        <a href="./project.html"><i class="fa fa-newspaper-o"></i>  Projects</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="./about.html"><i class="fa fa-info-circle"></i>  About</a>
+        <a href="./skills.html" class="split"><i class="fa fa-user-circle"></i> Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+
+    <div class="ag">    
+        <div class="pro"><p>Projects</p>
+        
+        </div>
+    </div>
+    <div class="mainT">
+        <div class="grid-containerA">
+            <div class="A"><img class="dice" src="./image/dice.png"/><p id="A">
+                <b>Dice Game</b><br><br>
+                I create a Dice game which has too much fun! It's totally exist on your luck!<br><br>
+                I made this by using html, css and javascript.
+            </p></div>
+            <div class="B"><img class="simon" src="./image/images.jpeg"/><p id="B">
+                <b>Simon game</b><br><br>
+                I create a simon game which provide you a random number to play it!<br><br>
+                I made this by using the html, css and javascript.
+            </p></div>
+            <div class="C"><img class="portfolio" src="./image/images (2).jpeg"><p id="C">
+                <b>Portfolio</b><br><br>
+                I create a portfolio for myself. I create it for my own work!<br><br>
+                I also made it by using html, css and javascript.
+            </p></div>
+            <div class="C"></div>
+            <div class="D"></div>
+            <div class="E"></div>
+            <div class="F"></div>
+        </div>
+    </div>
+</body>
+</html>

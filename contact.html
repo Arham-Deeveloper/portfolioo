@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<style>
+    body {
+    width: 1020px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+
+  .al {
+        position: relative;
+        left: 200px;
+        top: -60px;
+    }
+
+    .cont {
+        color: white;
+        font-size: 60px;
+        width: 1020px;
+        margin: auto;
+        background-color: rgb(40, 134, 127);
+        padding-right: 115px;
+    }
+
+    .mainG {
+        background-color: white;
+        width: 1020px;
+        height: 500px;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+
+    .ap {
+        position: relative;
+        left: 20%;
+        top: 1930px;
+    }
+
+    
+
+    .AA {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .T {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .TT {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
+
+    .TTT {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .Z {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        left: 21%;
+        cursor: pointer;
+    }
+
+    .Y {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        left: 30%;
+        cursor: pointer;
+    }
+
+    .X {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        left: 39%;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .p {
+        top: 68.9%;
+        position: absolute;
+        left: 3.5%;
+    }
+
+    .pp {
+        text-decoration: none;
+        top: 72%;
+        left: 10%;
+        position: absolute;
+        color: lightseagreen;
+    }
+
+    .l {
+        top: 75%;
+        position: absolute;
+        left: 2.8%;
+    }
+
+    .ll {
+        text-decoration: none;
+        top: 78%;
+        left: 12%;
+        position: absolute;
+        color: lightseagreen;
+    }
+
+
+</style>
+<body>
+    <div class="sidebar">
+        <img class="myImage" src="./image/What-is-Website.png">
+    <hr class="line">
+        <a href="./logIn.html"><i class="fa fa-fw fa-user"></i>  Log In</a>
+        <a href="./index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./experiance.html"><i class="fa fa-star-half-full"></i> Experiance</a>
+        <a href="./project.html"><i class="fa fa-newspaper-o"></i>  Projects</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="./about.html"><i class="fa fa-info-circle"></i>  About</a>
+        <a href="./skills.html" class="split"><i class="fa fa-user-circle"></i> Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+
+    <div class="al">
+        <div class="cont"><p>Contect Me</p>
+
+        </div>
+    </div>
+
+    <div class="mainG">
+        <div class="containerB">
+            <div class="AA">
+            <p class="T"><b>Hi, Contact me for my Services!</b><br></p>
+            <ul><li><p class="TT">I will provide your a 24 hour service.</p></li>
+            <li><p class="TTT">Contect me on Gmail, Linked In and Facebook!</p></li></ul>
+            </div>
+
+            <a><img class="Y" src="./image/facebook.png"/></a>
+            <a><img class="Z" src="./image/link.png"/></a>
+            <a><img class="X" src="./image/gmail.png"/></a>
+        </div>
+        <div class="tt">
+            <p class="p">Gmail =</p><a class="pp" href="www.google.com"> arhamdeeveloper@gmail.com</a>
+            <p class="l">Facebook =</p><a class="ll" href="www.facebook.com">arhamdeeveloper</a>
+        </div>
+    </div>
+</body>
+</html>

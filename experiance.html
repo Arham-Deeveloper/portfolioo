@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Experiance</title>
+</head>
+<style>
+   body {
+    width: 1020px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+
+  .exp-container {
+        position: relative;
+        left: 200px;
+    }
+
+    .af {
+        color: white;
+        font-size: 60px;
+        width: 1020px;
+        margin: auto;
+        background-color: rgb(40, 134, 127);
+        padding-right: 115px;
+    }
+
+    .main {
+        background-color: white;
+        position: absolute;
+        width: 1000px;
+        height: 600px;
+        left: 20%;
+        top: 20%;
+    }
+
+    .hea {
+        width: 1000px;
+    }
+
+    .lef {
+        float: left;
+        margin-left: 60px;
+        margin-top: 27px;
+        color: rgb(40, 134, 127);
+        font-size: 30px;
+        height: 20px;
+    }
+
+    .mid {
+        float: left;
+        margin-top: 30px;
+        font-size: 27px;
+        height: 20px;
+        color: grey;
+        margin-left: 35px;
+    }
+
+    .rig {
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .ar {
+        margin-top: 80px;
+    }
+
+    .bod {
+        position: absolute;
+        width: 700px;
+        left: 27%;
+        top: 38%;
+    }
+    
+    .yp {
+        color: black;
+        margin: 30px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div class="sidebar">
+        <img class="myImage" src="./image/What-is-Website.png">
+    <hr class="line">
+        <a href="./logIn.html"><i class="fa fa-fw fa-user"></i>  Log In</a>
+        <a href="./index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./experiance.html"><i class="fa fa-star-half-full"></i> Experiance</a>
+        <a href="./project.html"><i class="fa fa-newspaper-o"></i>  Projects</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="./about.html"><i class="fa fa-info-circle"></i>  About</a>
+        <a href="./skills.html" class="split"><i class="fa fa-user-circle"></i> Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+
+    <div class="exp-container">
+        <div class="exp-title">
+            <p class="af">Experiance</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="hea">
+            <p class="lef">Frelancer</p>
+            <p class="mid">Programmer</p>
+            <p class="rig">Web Developer</p>
+        </div>
+        <hr class="ar">
+    </div>
+    <div class="bod">
+        <ul>
+            <li class="yp">A web developer is accountable for a
+                           company website's code, design, and 
+                           layout.
+            </li>
+            <li class="yp">Due to the role's emphasis on
+                           user experience and functionality, 
+                           visual design and programming skills
+                           (like COBOL), are required.
+            </li>
+            <li class="yp"> After a website has been developed,
+                            a web developer  will typically help
+                            with its upkeep and maintenance.
+            </li>
+            <li class="yp">Web development is the work involved 
+                           in developing a website for the Internet
+                           (World Wide Web) or an intranet (a private
+                           network).
+            </li>
+            <li class="yp">Web development can range from developing
+                           a simple single static page of plain text
+                           to complex web applications, electronic
+                           businesses, and social network services.
+            </li>
+            <li class="yp">As an experienced web developer, I am 
+                           passionate about creating robust and 
+                           user-friendly web applications. 
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

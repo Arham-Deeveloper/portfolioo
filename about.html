@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+<style>
+    body {
+    width: 1020px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+
+  .ap {
+        position: relative;
+        left: 20%;
+        top: -60px;
+    }
+
+    .abo {
+        color: white;
+        font-size: 60px;
+        width: 1020px;
+        margin: auto;
+        background-color: rgb(40, 134, 127);
+        padding-right: 115px;
+    }
+
+    .mainK {
+        background-color: white;
+        width: 1020px;
+        height: 500px;
+        position: absolute;
+        left: 20%;
+        top: 130px;
+    }
+
+    .containerC {
+      font-family: 'lucida fax';
+    }
+
+    .ma {
+      color: rgb(40, 134, 127);
+      font-size: 45px;
+      margin-left: 30%;
+    }
+
+    .bo {
+      font-size: 30px;
+    }
+
+    .we {
+      color: rgb(40, 134, 127);
+    }
+
+    .bb {
+      width: 450px;
+    }
+
+    .bbb {
+      width: 450px;
+    }
+
+    .bbbb {
+      width: 450px;
+    }
+
+    .im {
+      width: 350px;
+      height: 270px;
+      left: 60%;
+      position: absolute;
+      bottom: 13%;
+    }
+
+
+</style>
+<body>
+    <div class="sidebar">
+        <img class="myImage" src="./image/What-is-Website.png">
+    <hr class="line">
+        <a href="./logIn.html"><i class="fa fa-fw fa-user"></i>  Log In</a>
+        <a href="./index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./experiance.html"><i class="fa fa-star-half-full"></i> Experiance</a>
+        <a href="./project.html"><i class="fa fa-newspaper-o"></i>  Projects</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="./about.html"><i class="fa fa-info-circle"></i>  About</a>
+        <a href="./skills.html" class="split"><i class="fa fa-user-circle"></i> Skills</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        </a>
+    </div>
+
+    <div class="ap">
+      <div class="abo"><p>About</p>
+
+      </div>
+  </div>
+
+  <div class="mainK">
+    <div class="containerC">
+      <div class="abou">
+        <h1 class="ma">I am Arham!</h1>
+        <h2 class="bo">I am a <b class="we">Web Developer</b>!</h2>
+        <h2 class="bb">I learn the Programming languages which are enough to create a web site professionaly!</h2>
+        <h2 class="bbb">I am expert in html, css, bootstrap, sql, node.js, express.js and javascript.</h2>
+        <h2 class="bbbb">I create many projects which are enough for my practice.I provide you a professional work!</h2>
+      </div>
+
+      <img class="im" src="./image/images (1).jpeg">
+    </div>
+  </div>
+
+    
+</body>
+</html>

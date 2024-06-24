@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(40, 134, 127);
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  
+  .sidebar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+
+  .myImage {
+    width: 80px;
+    height: 90pt;
+    border: 5px solid gray;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .myImage {
+        display: none;
+    }
+  }
+
+  .line {
+    color: gray;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .line {
+        display: none;
+    }
+  }
+  
+
+  .name {
+    position: absolute;
+    left: 30%;
+    font-size: 60px;
+    color: white;
+  }
+
+  .IAm {
+    color: white;
+    left: 30%;
+    position: absolute;
+    top: 25%;
+  }
+
+  .para {
+    color: white;
+    left: 30%;
+    position: absolute;
+    top: 35%;
+  }
+  .fac {
+    position: absolute;
+    left: 33%;
+    top: 54%;
+    width: 60px;
+    height: 60px;
+  }
+  .lin {
+    position: absolute;
+    left: 39%;
+    top: 54%;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+
+  .readMore {
+    position: absolute;
+    left: 30%;
+    top: 66%;
+    width: 140px;
+    border-radius: 20%;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(40, 134, 127);
+    cursor: pointer;
+  }
+
+  .con {
+    position: absolute;
+    left: 43%;
+    top: 66%;
+    width: 138px;
+    height: 48px;
+    border-radius: 20%;
+    font-size: 20px;
+    background-color: rgb(40, 134, 127);
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .con:hover {
+    background-color: white;
+    color: rgb(40, 134, 127);
+  }
